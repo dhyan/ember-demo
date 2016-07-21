@@ -50,6 +50,7 @@ Specify what it takes to deploy your app.
 * [ember-cli](http://ember-cli.com/)
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
+  * Ember inspector issues fixed. https://github.com/emberjs/ember-inspector/issues/550
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
 
