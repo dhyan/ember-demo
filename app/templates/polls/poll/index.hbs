@@ -1,0 +1,19 @@
+<h2>{{model.poll.prompt}}</h2>
+
+<ul>
+  {{#each model.poll.options as |option|}}
+    <button {{action 'toggleOption' model option}}><b>Select</b></button>
+      <li>{{option.label}}</li>
+  {{/each}}
+</ul>
+
+<ul>
+    <li>
+        <button {{action 'castVote' model}}>Vote</button>
+    </li>
+</ul>
+<ul>
+    <li>
+      {{#link-to "polls.poll.results"}}Results{{/link-to}}
+    </li>
+</ul>

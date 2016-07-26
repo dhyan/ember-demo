@@ -1,0 +1,12 @@
+<h2>{{model.prompt}}</h2>
+<ul>
+  {{#each model.options as |option|}}
+      <li>{{option.label}}</li>
+  {{/each}}
+</ul>
+
+<ul>
+  {{#each model.options as |option|}}
+      <li>{{option.id}}</li>
+  {{/each}}
+</ul>

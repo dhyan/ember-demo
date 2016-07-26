@@ -1,0 +1,11 @@
+<header>Common Headerrrrr!!!</header>
+
+
+<footer>
+    <ul>
+      {{#each model as |poll|}}
+          <li>{{#link-to 'polls.poll' poll}}{{poll.prompt}}{{/link-to}}</li>
+      {{/each}}
+    </ul>
+</footer>
+{{outlet}}
